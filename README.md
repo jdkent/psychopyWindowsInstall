@@ -104,4 +104,4 @@ psychopyApp.py
 ```
 and the application _should_ open.
 
-Yay, you made it!
+Yay, you made it! :+1:
