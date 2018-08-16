@@ -10,7 +10,7 @@ While you don't need git for psychopy, it comes with a terminal emulator that wi
 **Notes**
 - open the exe file when it finishes downloading after you follow the link
 - accept all defaults during installation (except you can change the default text editor from vim to nano since nano is more friendly to beginners)
-- insert image
+![nano option](imgs/step-1_use_nano.PNG)
 - Open the Git Bash terminal, right click on the icon and pin it to your taskbar, it will allow for easy access. [supplemental windows instructions on how to do this](https://support.microsoft.com/en-us/help/15059/windows-8-pin-apps-folders-desktop-taskbar)
 
 ## Step 2: [Install Miniconda](https://conda.io/miniconda.html)
@@ -24,7 +24,7 @@ Select the 3.6 python version (either 32 bit or 64 bit) depending on your operat
 
 To access the miniconda installation open the Git Bash terminal and change your directory to your home directory.
 Your terminal should look something like this:
-- insert image
+![go_home](imgs/step-3_go_home.PNG)
 
 We will create a `.bash_profile` file that will make the miniconda commands accessible to the terminal.
 To create the file you will type:
@@ -67,7 +67,7 @@ source activate pschpy
 ```
 
 Your terminal should look something like this:
-- <insert image>
+![environment](imgs/step-5_psychpy.PNG)
 
 **Note**
 - to deactivate the `psychpy` environment type `source deactivate`
