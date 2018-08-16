@@ -94,8 +94,7 @@ The third install command (with `pysoundfile` added)
 pip install zmq json-tricks pyparallel sounddevice pygame pysoundcard psychopy_ext psychopy pysoundfile
 ```
 
-TODO: what's the name of the post_install file?
-Finally, run the post_install file from psychopy to properly install `psychopy`
+Finally, run the post install file (`psychopy_post_inst.py`) from psychopy to properly install `psychopy`
 
 Now you can run psychopy!
 type:
