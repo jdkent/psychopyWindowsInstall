@@ -10,6 +10,7 @@ While you don't need git for psychopy, it comes with a terminal emulator that wi
 **Notes**
 - open the exe file when it finishes downloading after you follow the link
 - accept all defaults during installation (except you can change the default text editor from vim to nano since nano is more friendly to beginners)
+
 ![nano option](imgs/step-1_use_nano.PNG)
 - Open the Git Bash terminal, right click on the icon and pin it to your taskbar, it will allow for easy access. [supplemental windows instructions on how to do this](https://support.microsoft.com/en-us/help/15059/windows-8-pin-apps-folders-desktop-taskbar)
 
@@ -40,6 +41,15 @@ This will open up to a editor in your terminal with little buttons on the bottom
 You will now enter the following text to the editor.
 ```bash
 PATH=${HOME}/Miniconda3:${HOME}/Miniconda3/Scripts:${PATH}
+export PATH
+
+# this is a known bug for the terminal editor
+alias python='winpty python.exe'
+```
+**Note**: Sometimes the default location for Miniconda is `${HOME}/AppData/Local/Continuum/miniconda3`
+So the following should be in the `~/.bash_profile` instead:
+```
+PATH=${HOME}/AppData/Local/Continuum/miniconda3:${HOME}/AppData/Local/Continuum/miniconda3/Scripts:${PATH}
 export PATH
 
 # this is a known bug for the terminal editor
